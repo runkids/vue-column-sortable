@@ -1,0 +1,49 @@
+{
+  "name": "vue-column-sortable",
+  "version": "0.0.1",
+  "description": "vue-column-sortable is an data sortable directive for vue.js.",
+  "main": "dist/vue-column-sortable.js",
+  "files": [
+    "dist/vue-column-sortable.js"
+  ],
+  "keywords": [
+    "vue",
+    "table",
+    "column",
+    "sort",
+    "sortable",
+    "orderby",
+    "order by"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runkids/vue-column-sortable.git"
+  },
+  "author": {
+    "name": "runkids",
+    "email": "egg358358@gmail.com>"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/runkids/vue-column-sortable/issues"
+  },
+  "homepage": "https://github.com/runkids/vue-column-sortable#readme",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelrc-rollup": "^3.0.0",
+    "rollup": "^0.66.4",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "babel-preset-env": "^1.7.0",
+    "vue": "^2.5.17"
+  }
+}
