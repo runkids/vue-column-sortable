@@ -77,7 +77,7 @@ export default {
     initialElementStyle(el);
     vnode.context.$nextTick(()=>{
       const modifiers = Object.keys(binding.modifiers).join('.');
-      const sortKey = binding.arg + (modifiers ? `.${modifiers}` : '');
+      const sortKey = (binding.arg || binding.value) + (modifiers ? `.${modifiers}` : '');
       callBackSortClass = changeSortClass.bind(el, sortKey, vnode, binding.value);
       el.addEventListener('click', callBackSortClass);
     })
